@@ -7,6 +7,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "test_wxt": "^0.1.1"
   }
