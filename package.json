@@ -6,7 +6,7 @@
   },
   "workspaces": [
     "packages/*",
-    "packages/@gp0320/*"
+    "packages/@utils/*"
   ],
   "publishConfig": {
     "access": "public"
