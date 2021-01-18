@@ -1,10 +1,10 @@
 {
   "name": "@utils/testpackages",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "> TODO: description",
   "author": "王小通 <wangxiaotong@cosmosource.com>",
   "homepage": "https://github.com/playboy888/education-UI#readme",
-  "private":"true",
+  "private": "true",
   "license": "ISC",
   "main": "lib/testpackages.js",
   "directories": {
