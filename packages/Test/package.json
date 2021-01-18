@@ -1,0 +1,26 @@
+{
+  "name": "@wxt/test",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "王小通 <wangxiaotong@cosmosource.com>",
+  "homepage": "https://github.com/playboy888/education-UI#readme",
+  "license": "ISC",
+  "main": "lib/Test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playboy888/education-UI.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/playboy888/education-UI/issues"
+  }
+}
