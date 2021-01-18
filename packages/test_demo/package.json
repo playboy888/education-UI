@@ -5,11 +5,13 @@
   "author": "王小通 <wangxiaotong@cosmosource.com>",
   "homepage": "https://github.com/playboy888/education-UI#readme",
   "license": "ISC",
-  "private": "true",
   "main": "lib/test_demo.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "lib"
@@ -23,6 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/playboy888/education-UI/issues"
-  },
-  "gitHead": "9c1587fa4362632c283e9a7f826ad70364923f49"
+  }
 }
