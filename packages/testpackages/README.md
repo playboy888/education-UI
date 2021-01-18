@@ -1,11 +1,11 @@
-# `gpnote`
+# `testpackages`
 
 > TODO: description
 
 ## Usage
 
 ```
-const gpnote = require('gpnote');
+const testpackages = require('testpackages');
 
 // TODO: DEMONSTRATE API
 ```
