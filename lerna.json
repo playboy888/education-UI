@@ -3,6 +3,6 @@
     "packages/*",
     "packages/@utils/*"
   ],
-  "version": "0.1.17-alpha.0",
+  "version": "0.1.17",
   "useWorkspaces": true
 }

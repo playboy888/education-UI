@@ -1,12 +1,11 @@
 {
   "name": "@utils/test_demo",
-  "version": "0.1.17-alpha.0",
+  "version": "0.1.17",
   "description": "> TODO: description",
   "author": "王小通 <wangxiaotong@cosmosource.com>",
   "homepage": "https://github.com/playboy888/education-UI#readme",
   "license": "ISC",
-  
-  "private":"true",
+  "private": "true",
   "main": "lib/test_demo.js",
   "directories": {
     "lib": "lib",
