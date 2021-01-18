@@ -1,7 +1,9 @@
-'use strict';
 
-module.exports = testpackages;
 
-function testpackages() {
+export const function testpackages() {
     // TODO
+    alert(321321321321)
+
+
+
 }

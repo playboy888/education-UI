@@ -1,11 +1,11 @@
 {
   "name": "@utils/testpackages",
-  "version": "0.1.15",
+  "version": "0.1.13",
   "description": "> TODO: description",
   "author": "王小通 <wangxiaotong@cosmosource.com>",
   "homepage": "https://github.com/playboy888/education-UI#readme",
-  "private": "true",
   "license": "ISC",
+  "private":"true",
   "main": "lib/testpackages.js",
   "directories": {
     "lib": "lib",
@@ -24,5 +24,5 @@
   "bugs": {
     "url": "https://github.com/playboy888/education-UI/issues"
   },
-  "gitHead": "a0168fdb6c317983a036f545510ea69f12a12da0"
+  "gitHead": "c70908fd3152a3cb722e81557515f878df0fd89e"
 }
