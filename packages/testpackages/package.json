@@ -1,5 +1,5 @@
 {
-  "name": "testpackages",
+  "name": "@utils/testpackages",
   "version": "0.1.13",
   "description": "> TODO: description",
   "author": "王小通 <wangxiaotong@cosmosource.com>",
@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/playboy888/education-UI/issues"
-  }
+  },
+  "gitHead": "c70908fd3152a3cb722e81557515f878df0fd89e"
 }
