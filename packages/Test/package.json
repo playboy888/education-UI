@@ -2,9 +2,8 @@
   "name": "@wxt/test",
   "version": "0.0.9",
   "description": "> TODO: description",
-  "author": "王小通 <377308198@qq.com>",
+  "author": "王小通 <wangxiaotong@cosmosource.com>",
   "homepage": "https://github.com/playboy888/education-UI#readme",
-  "private": "true",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -23,6 +22,5 @@
   },
   "bugs": {
     "url": "https://github.com/playboy888/education-UI/issues"
-  },
-  "gitHead": "e5bb7f0ec2838f3f0104f949dc5281b0ebd87d85"
+  }
 }
