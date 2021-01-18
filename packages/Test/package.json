@@ -1,8 +1,8 @@
 {
   "name": "@wxt/test",
-  "version": "0.0.5",
+  "version": "0.0.3",
   "description": "> TODO: description",
-  "author": "王小通 <377308198@qq.com>",
+  "author": "王小通 <18622076985>",
   "homepage": "https://github.com/playboy888/education-UI#readme",
   "license": "ISC",
   "main": "lib/Test.js",
@@ -13,6 +13,10 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playboy888/education-UI.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
