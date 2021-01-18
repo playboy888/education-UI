@@ -1,5 +1,5 @@
 {
-  "name": "@wxt/test",
+  "name": "test",
   "version": "0.0.11",
   "description": "> TODO: description",
   "author": "王小通 <377308198@qq.com>",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/playboy888/education-UI/issues"
   },
-  "gitHead": "bdbe6e95c01e32af1ee1760b648fcd4fc8f66f50"
+  "gitHead": "699cfa22ec1b2303dd0116107dee0476b63dd44b"
 }
