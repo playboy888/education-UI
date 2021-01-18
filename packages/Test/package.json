@@ -4,6 +4,7 @@
   "description": "> TODO: description",
   "author": "王小通 <18622076985>",
   "homepage": "https://github.com/playboy888/education-UI#readme",
+  "private":"true",
   "license": "ISC",
   "main": "lib/Test.js",
   "directories": {
@@ -22,5 +23,6 @@
   },
   "bugs": {
     "url": "https://github.com/playboy888/education-UI/issues"
-  }
+  },
+  "gitHead": "e5bb7f0ec2838f3f0104f949dc5281b0ebd87d85"
 }
