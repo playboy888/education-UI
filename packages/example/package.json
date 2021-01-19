@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "example_test",
   "version": "1.0.5",
   "description": "> TODO: description",
   "author": "王小通 <377308198@qq.com>",
@@ -35,5 +35,5 @@
     "html-webpack-plugin": "^4.2.0",
     "package1": "^1.0.4"
   },
-  "gitHead": "e27f1f0c05d1ecc973311c39a9de46d2a6f15680"
+  "gitHead": "ccc5492ad596de90133927e70175a5282dce4725"
 }
