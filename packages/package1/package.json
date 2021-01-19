@@ -3,7 +3,7 @@
 	"version": "1.0.2",
 	"description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
 	"keywords": [],
-	"author": "王小通 <wangxiaotong@cosmosource.com>",
+	"author": "王小通 <377308198@qq.com>",
 	"license": "ISC",
 	"directories": {
 		"lib": "lib",
@@ -46,5 +46,5 @@
 		"url": "https://github.com/playboy888/education-UI/issues"
 	},
 	"homepage": "https://github.com/playboy888/education-UI#readme",
-	"gitHead": "378a3037ac160c0c9a04425fe664ffd8e4add1df"
+	"gitHead": "5259838d989babdde4baa40d0b0cbc5b3497b588"
 }
