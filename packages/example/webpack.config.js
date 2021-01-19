@@ -68,6 +68,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             // 以这个路径下的index.html为模板
             template: __dirname + "/public/index.html"
-        }),
+        })
     ]
 }
