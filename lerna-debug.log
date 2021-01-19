@@ -1,6 +1,13 @@
-36 error Error: Command failed: git tag v0.0.8 -m v0.0.8
-36 error fatal: tag 'v0.0.8' already exists
-36 error
-36 error     at makeError (D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:174:9)
-36 error     at D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:278:16
-36 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'example_test',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\cosmo19\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'package1_test'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath D:\myWorkSpace\ReactWorkSpace\education-UI
+3 error JSONError: Unexpected token } in JSON at position 998 while parsing near '...lugin": "^4.2.0",  },  "gitHead": "ccc...' in packages\example\package.json
+3 error     at module.exports (D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\parse-json\index.js:26:19)
+3 error     at parse (D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\load-json-file\index.js:15:9)

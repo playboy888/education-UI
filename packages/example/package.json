@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "html-webpack-plugin": "^4.2.0",
-    "package1": "^1.0.4"
+    "package1_test": "^1.0.6"
   },
   "gitHead": "ccc5492ad596de90133927e70175a5282dce4725"
 }
