@@ -6,9 +6,10 @@
 	"author": "王小通 <377308198@qq.com>",
 	"license": "ISC",
 	"main": "dist/bundle.js",
-	"types": "dist/index.d.ts",
+	"typings": "dist/index.d.ts",
 	"files": [
-		"dist"
+		"dist",
+		"src"
 	],
 	"directories": {
 		"lib": "dist"
