@@ -36,7 +36,7 @@
 		"webpack-dev-server": "^3.10.3"
 	},
 	"publishConfig": {
-		"registry": "https://registry.yarnpkg.com/"
+		"registry": "https://registry.npmjs.org/"
 	},
 	"repository": {
 		"type": "git",
@@ -45,5 +45,6 @@
 	"bugs": {
 		"url": "https://github.com/playboy888/education-UI/issues"
 	},
-	"homepage": "https://github.com/playboy888/education-UI#readme"
+	"homepage": "https://github.com/playboy888/education-UI#readme",
+	"gitHead": "d28b5d288f672b27d5e95a9aa53de082090c4279"
 }

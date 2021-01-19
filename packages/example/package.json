@@ -6,7 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@types/react": "^16.9.25",
@@ -34,5 +34,6 @@
   "dependencies": {
     "html-webpack-plugin": "^4.2.0",
     "package1": "^1.0.0"
-  }
+  },
+  "gitHead": "d28b5d288f672b27d5e95a9aa53de082090c4279"
 }
