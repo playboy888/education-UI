@@ -1,10 +1,10 @@
 import React from 'react'
 
-
+import "./main.less"
 function App() {
   return (
     <div>
-      <p>你好，世界!!!</p>
+      <p className="hello">你好，世界!!!</p>
       <button>按dsadssssadsa钮</button>
     </div>
   );
