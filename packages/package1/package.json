@@ -8,8 +8,11 @@
 	"main": "dist/bundle.js",
 	"types": "dist/index.d.ts",
 	"files": [
-		"src"
+		"dist"
 	],
+	"directories": {
+    "lib": "dist"
+  },
 	"scripts": {
 		"dev": "webpack --config webpack.config.js --watch --progress --colors",
 		"build": "webpack --config webpack.config.js --progress --colors"
