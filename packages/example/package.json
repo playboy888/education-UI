@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "王小通 <wangxiaotong@cosmosource.com>",
   "homepage": "",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "html-webpack-plugin": "^4.2.0",
-    "package1": "^1.0.0"
+    "package1": "^1.0.1"
   },
   "gitHead": "d28b5d288f672b27d5e95a9aa53de082090c4279"
 }
