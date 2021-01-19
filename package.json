@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "useworkspace": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run --parallel dev",
+    "build":"lerna run --parallel dev"
+  }
+}
