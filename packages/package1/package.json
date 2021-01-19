@@ -1,14 +1,10 @@
 {
-	"name": "package1",
+	"name": "package1_test",
 	"version": "1.0.4",
 	"description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
 	"keywords": [],
 	"author": "王小通 <377308198@qq.com>",
 	"license": "ISC",
-	"directories": {
-		"lib": "lib",
-		"test": "__tests__"
-	},
 	"main": "dist/bundle.js",
 	"types": "dist/index.d.ts",
 	"files": [
@@ -46,5 +42,5 @@
 		"url": "https://github.com/playboy888/education-UI/issues"
 	},
 	"homepage": "https://github.com/playboy888/education-UI#readme",
-	"gitHead": "5259838d989babdde4baa40d0b0cbc5b3497b588"
+	"gitHead": "e27f1f0c05d1ecc973311c39a9de46d2a6f15680"
 }
