@@ -1,5 +1,5 @@
-36 error Error: Command failed: git tag v0.0.7 -m v0.0.7
-36 error fatal: tag 'v0.0.7' already exists
+36 error Error: Command failed: git tag v0.0.8 -m v0.0.8
+36 error fatal: tag 'v0.0.8' already exists
 36 error
 36 error     at makeError (D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:174:9)
 36 error     at D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:278:16
