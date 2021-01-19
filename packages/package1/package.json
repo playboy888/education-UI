@@ -8,8 +8,7 @@
 	"main": "dist/bundle.js",
 	"typings": "dist/index.d.ts",
 	"files": [
-		"dist",
-		"src"
+		"dist"
 	],
 	"directories": {
 		"lib": "dist"
