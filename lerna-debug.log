@@ -1,15 +1,6 @@
-32 error Error: Command failed: git add -- packages/package1/package.json packages/package1/package-lock.json packages/example/package.json packages/example/package-lock.json lerna.json
-32 error warning: LF will be replaced by CRLF in lerna.json.
-32 error The file will have its original line endings in your working directory.
-32 error warning: LF will be replaced by CRLF in packages/example/package.json.
-32 error The file will have its original line endings in your working directory.
-32 error warning: LF will be replaced by CRLF in packages/package1/package.json.
-32 error The file will have its original line endings in your working directory.
-32 error The following paths are ignored by one of your .gitignore files:
-32 error packages/example/package-lock.json
-32 error packages/package1/package-lock.json
-32 error Use -f if you really want to add them.
-32 error
-32 error     at makeError (D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:174:9)
-32 error     at D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:278:16
-32 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+36 error Error: Command failed: git tag v0.0.7 -m v0.0.7
+36 error fatal: tag 'v0.0.7' already exists
+36 error
+36 error     at makeError (D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:174:9)
+36 error     at D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:278:16
+36 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
