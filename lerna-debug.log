@@ -10,6 +10,6 @@
 32 error packages/package1/package-lock.json
 32 error Use -f if you really want to add them.
 32 error
-32 error     at makeError (D:\myWorkSpace\VueWorkSpace\education\node_modules\execa\index.js:174:9)
-32 error     at D:\myWorkSpace\VueWorkSpace\education\node_modules\execa\index.js:278:16
+32 error     at makeError (D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:174:9)
+32 error     at D:\myWorkSpace\ReactWorkSpace\education-UI\node_modules\execa\index.js:278:16
 32 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
