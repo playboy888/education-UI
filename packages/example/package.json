@@ -1,6 +1,6 @@
 {
   "name": "example_test",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "> TODO: description",
   "author": "王小通 <377308198@qq.com>",
   "homepage": "",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "html-webpack-plugin": "^4.2.0",
-    "package1_test": "^1.0.14"
+    "package1_test": "^1.0.15"
   },
   "gitHead": "ccc5492ad596de90133927e70175a5282dce4725"
 }
