@@ -14,7 +14,7 @@
 		"lib": "dist"
 	},
 	"scripts": {
-		"dev": "webpack --config webpack.config.js --watch --progress --colors",
+		"dev": "webpack --config webpack.config.js --watch --progress --colors --mode=development",
 		"build": "webpack --config webpack.config.js --progress --colors"
 	},
 	"devDependencies": {

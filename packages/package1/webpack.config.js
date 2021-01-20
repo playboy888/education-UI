@@ -4,7 +4,7 @@ const webpack = require("webpack");
 // 导出一个配置对象，将来webpack在启动的时候，会默认来查找webpack.config.js，并读取这个文件中导出的配置对象，来进行打包处理
 module.exports = {
     // 项目入口文件
-    entry: path.resolve(__dirname, 'src/index.ts'),
+    entry: path.resolve(__dirname, 'src/main.ts'),
     // 项目输出文件
     output: {
         filename: 'bundle.js',
@@ -27,7 +27,13 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
+                use: [{
+                        loader: "style-loader",
+                    },
+                    {
+                        loader: 'css-loader',
+                    }
+                ],
             },
             {
                 test: /\.(png|jp(e*)g|svg)$/,
@@ -42,13 +48,20 @@ module.exports = {
             {
                 test: /\.less$/,
                 use: [{
-                        loader: 'style-loader', // creates style nodes from JS strings
+                        loader: 'style-loader', // 从JS字符串创建样式节点
                     },
                     {
-                        loader: 'css-loader', // translates CSS into CommonJS
+                        loader: 'css-loader', // 将CSS转换为CommonJS
+                        options: {
+                            modules: {
+                                //生成随机类名
+                                localIdentName: "cosmo-[local]-[hash:5]"
+                            }, //开启css模块化
+                        },
                     },
                     {
-                        loader: 'less-loader', // compiles Less to CSS
+                        loader: 'less-loader', // 编译less为CSS
+
 
                     },
                 ],

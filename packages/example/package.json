@@ -28,11 +28,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "dev": "webpack --config webpack.config.js  --watch --progress --colors --mode=development"
+    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js  --watch --progress --colors --mode=development"
   },
   "dependencies": {
-    "html-webpack-plugin": "^4.2.0"
+    "html-webpack-plugin": "^4.2.0",
+    "package1_test": "^1.0.14"
   },
   "gitHead": "ccc5492ad596de90133927e70175a5282dce4725"
 }
