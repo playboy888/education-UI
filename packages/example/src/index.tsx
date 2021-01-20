@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import  BTN  from "package1_test"
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <BTN />
     </React.StrictMode>,
     document.getElementById('root')
 );

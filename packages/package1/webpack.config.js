@@ -4,7 +4,7 @@ const webpack = require("webpack");
 // 导出一个配置对象，将来webpack在启动的时候，会默认来查找webpack.config.js，并读取这个文件中导出的配置对象，来进行打包处理
 module.exports = {
     // 项目入口文件
-    entry: path.resolve(__dirname, 'src/main.ts'),
+    entry: path.resolve(__dirname, 'src/index.tsx'),
     // 项目输出文件
     output: {
         filename: 'bundle.js',
@@ -19,11 +19,18 @@ module.exports = {
         rules: [{
                 test: /\.(ts|js)x?$/,
                 loader: 'babel-loader',
-                exclude: /node_modules/
+                exclude: /node_modules/,
+                query: {
+                    cacheDirectory: true,
+                    plugins: [
+                        ['import', { libraryName: 'antd', style: 'css' }]
+                    ],
+                },
             },
             {
                 test: /\.(ts|tsx)$/,
                 loader: "ts-loader",
+                exclude: /node_modules/
             },
             {
                 test: /\.css$/,
@@ -37,8 +44,10 @@ module.exports = {
             },
             {
                 test: /\.(png|jp(e*)g|svg)$/,
+                exclude: /node_modules/,
                 use: [{
                     loader: 'url-loader',
+
                     // 降低loader版本，启用CommonJS模块语法
                     options: {
                         esModule: false
@@ -47,6 +56,7 @@ module.exports = {
             },
             {
                 test: /\.less$/,
+                exclude: /node_modules/,
                 use: [{
                         loader: 'style-loader', // 从JS字符串创建样式节点
                     },
@@ -62,7 +72,6 @@ module.exports = {
                     {
                         loader: 'less-loader', // 编译less为CSS
 
-
                     },
                 ],
             }
@@ -72,5 +81,7 @@ module.exports = {
 
     optimization: {},
     // 插件
-    plugins: []
+    plugins: [
+
+    ]
 }
