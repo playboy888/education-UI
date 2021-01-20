@@ -47,7 +47,7 @@
     "url": "https://github.com/playboy888/education-UI/issues"
   },
   "homepage": "https://github.com/playboy888/education-UI#readme",
-  "gitHead": "249e8b7009d73eb1244424f226526e51dd9913dd",
+  "gitHead": "213e79d0735dd7d14254fc324f41f44ea750a489",
   "dependencies": {
     "babel-plugin-import": "^1.13.3"
   }

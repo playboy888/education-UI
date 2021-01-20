@@ -20,6 +20,7 @@ module.exports = {
                 test: /\.(ts|js)x?$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/,
+
                 query: {
                     cacheDirectory: true,
                     plugins: [

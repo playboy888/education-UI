@@ -1,4 +1,4 @@
 declare module '*.less' {
-  const content: any;
+  const content: any; 
   export default content;
 }
